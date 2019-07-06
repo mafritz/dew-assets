@@ -1,0 +1,19 @@
+{
+  "name": "dew-assets",
+  "version": "1.0.0",
+  "description": "Assets for the various Dynamic Emotion Wheel projects.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build-css": "sass scss/dew-website.scss docs/assets/css/dew-website.css"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bootstrap": "^4.3.1"
+  },
+  "devDependencies": {
+    "sass": "^1.22.3"
+  }
+}

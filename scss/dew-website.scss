@@ -1,0 +1,14 @@
+$dew-primary-color: #006b6b;
+$dew-secondary-color: #f0ad4e;
+
+$theme-colors: (
+  "dew-primary": $dew-primary-color,
+  "dew-secondary": $dew-secondary-color
+);
+
+$headings-font-family: null !default;
+$headings-font-weight: 900 !default;
+$headings-line-height: 1.2 !default;
+$headings-color: $dew-secondary-color !default;
+
+@import "../node_modules/bootstrap/scss/bootstrap";
