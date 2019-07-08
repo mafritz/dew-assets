@@ -17,7 +17,7 @@ $headings-font-weight: 900 !default;
 $headings-line-height: 1.2 !default;
 $headings-color: $dew-secondary-color !default;
 
-$carousel-control-color: #000 !default;
+$carousel-control-color: $dew-primary-color !default;
 $carousel-transition-duration: 0.9s !default;
 .carousel-caption {
   position: absolute;
