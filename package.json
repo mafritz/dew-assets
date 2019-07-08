@@ -5,8 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build-css": "node-sass --output-style compressed scss/dew-website.scss > docs/assets/css/dew-website.css",
-    "watch-css": "node-sass -w --output-style compressed scss/dew-website.scss > docs/assets/css/dew-website.css"
+    "build-css": "node-sass --output-style compressed scss/dew-website.scss > docs/assets/css/dew-website.css"
   },
   "keywords": [],
   "author": "",

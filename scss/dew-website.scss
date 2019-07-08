@@ -38,8 +38,15 @@ html {
 }
 
 .navbar li.nav-item a.nav-link {
-  font-size: 1.3rem;
+  font-size: 1.25rem;
   text-transform: uppercase;
+}
+
+.alternate-section {
+  background-color: rgba(
+    $color: lighten($dew-secondary-color, 10%),
+    $alpha: 0.1
+  );
 }
 
 @import "../node_modules/bootstrap/scss/bootstrap";
