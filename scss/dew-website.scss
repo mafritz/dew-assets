@@ -1,14 +1,43 @@
+$enable-responsive-font-sizes: true;
+
 $dew-primary-color: #008c8c;
 $dew-secondary-color: #f0ad4e;
 
 $theme-colors: (
-  "dew-primary": $dew-primary-color,
-  "dew-secondary": $dew-secondary-color
+  'dew-primary': $dew-primary-color,
+  'dew-secondary': $dew-secondary-color
 );
+
+$font-size-base: 1.2rem !default; // Assumes the browser default, typically `16px`
+$font-size-lg: ($font-size-base * 1.25) !default;
+$font-size-sm: ($font-size-base * 0.875) !default;
 
 $headings-font-family: null !default;
 $headings-font-weight: 900 !default;
 $headings-line-height: 1.2 !default;
 $headings-color: $dew-secondary-color !default;
 
-@import "../node_modules/bootstrap/scss/bootstrap";
+.carousel-caption {
+  position: absolute;
+  right: 0 !important;
+  bottom: 0 !important;
+  width: 100% !important;
+  left: 0 !important;
+  z-index: 10;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  color: #fff;
+  text-align: center;
+  background-color: rgba($color: #000, $alpha: 0.75);
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.navbar li.nav-item a.nav-link {
+  font-size: 1.3rem;
+  text-transform: uppercase;
+}
+
+@import '../node_modules/bootstrap/scss/bootstrap';
