@@ -4,8 +4,8 @@ $dew-primary-color: #008c8c;
 $dew-secondary-color: #f0ad4e;
 
 $theme-colors: (
-  'dew-primary': $dew-primary-color,
-  'dew-secondary': $dew-secondary-color
+  "dew-primary": $dew-primary-color,
+  "dew-secondary": $dew-secondary-color
 );
 
 $font-size-base: 1.2rem !default; // Assumes the browser default, typically `16px`
@@ -17,6 +17,8 @@ $headings-font-weight: 900 !default;
 $headings-line-height: 1.2 !default;
 $headings-color: $dew-secondary-color !default;
 
+$carousel-control-color: #000 !default;
+$carousel-transition-duration: 0.9s !default;
 .carousel-caption {
   position: absolute;
   right: 0 !important;
@@ -40,4 +42,4 @@ html {
   text-transform: uppercase;
 }
 
-@import '../node_modules/bootstrap/scss/bootstrap';
+@import "../node_modules/bootstrap/scss/bootstrap";
